@@ -1,5 +1,6 @@
 header {
     margin-bottom: 4em;
+    
 }
 
 nav {
@@ -14,6 +15,7 @@ nav {
     background: var(--linear-azul-roxo);
     z-index: 9;
     overflow: hidden;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.212);
 }
 
 .logo {

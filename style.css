@@ -29,7 +29,85 @@
     --linear-azul-roxo:  linear-gradient(270deg, #8c4eff 0%, #006DD1 49.48%, #0086D1 94.79%);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Archivo', sans-serif;
     background: var(--linear-azul-roxo);
+}
+
+
+
+/* Scrollbar personalizada */
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--cor-destaque);
+    border-radius: 5px;
+}
+
+/* Animaçoes de entrada e saida de conteudo */
+
+@media (min-width: 700px) {
+
+    [data-anima] {
+        opacity: 0;
+        transition: .8s;
+    }
+
+    [data-anima="esquerda"] {
+        transform: translate3d(-50px, 0, 0);
+    }
+
+    [data-anima="direita"] {
+        transform: translate3d(50px, 0, 0);
+    }
+
+    [data-anima="centro"] {
+        transform: translate3d(0, 50px, 0);
+    }
+
+    [data-anima].animacao {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+
+}
+
+
+
+/* Animação botão whats */
+.butao-whats {
+    animation: float .8s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translatey(0)
+    }
+
+    50% {
+        transform: translatey(10px)
+    }
+}
+
+.line-sections {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .line-sections {
+        display: block;
+    }
 }

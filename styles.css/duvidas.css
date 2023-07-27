@@ -16,3 +16,12 @@
 .duvidas a:hover {
     color: rgb(55, 142, 182);
 }
+
+
+@media (min-width: 900px) {
+
+    .duvidas {
+        padding: 3em 10%;
+    }
+
+}

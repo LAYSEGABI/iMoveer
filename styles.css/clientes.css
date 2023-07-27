@@ -11,6 +11,8 @@
 }
 .cards {
     white-space: nowrap;
+    background-color: var(--branco-padrao);
+    width: 0;
 }
 
 .card-outter {
@@ -47,6 +49,7 @@ ol {
 .slider-container {
     position: relative;
     overflow: hidden;
+    background-color: var(--branco-padrao);
     margin: 0 -20px;
 }
 
@@ -54,54 +57,6 @@ ol {
     transition: transform .2s ease-out;
 }
 
-.slider-arrow {
-    display: block;
-    position: absolute;
-    top: 50%;
-    z-index: 2;
-    width: 30px;
-    height: 30px;
-    background: white;
-    border: 1px solid green;
-    border-radius: 50%;
-    cursor: pointer;
-    transform: translateY(-100%);
-    transition: opacity .2s ease-in-out;
-
-
-
-    &:before {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-family: verdana;
-        font-size: 18px;
-        color: gray;
-    }
-
-    &.disabled {
-        opacity: 0;
-    }
-
-    &.left {
-        left: 5px;
-
-        &:before {
-            margin-left: -1px;
-            content: "\21F7";
-        }
-    }
-
-    &.right {
-        right: 5px;
-
-        &:before {
-            margin-left: 1px;
-            content: "\21F8";
-        }
-    }
-}
 
 @media (min-width: 900px) {
 

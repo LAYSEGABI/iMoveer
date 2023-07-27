@@ -1,0 +1,48 @@
+.sobre-nos {
+    background-color: var(--branco-padrao);
+    margin-top: -10px;
+    padding: 1.2em;
+    color: var(--branco-padrao);
+    text-align: center;
+}
+
+.back {
+    background: var(--linear-azul-roxo);
+    padding: 1em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.back p {
+    color: var(--cinza-padrao);
+}
+
+.back a {
+    padding: .8em 2.3em;
+    background-color: var(--azul-claro);
+    width: 60%;
+    border-radius: 5px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: var(--branco-padrao);
+    margin: 1em 0;
+}
+
+
+@media (max-width: 350px) {
+
+    .back a {
+        text-align: center;
+        width: 80%;
+    }
+}
+
+@media (min-width: 900px) {
+
+    .back a {
+        width: 20%;
+    }
+}

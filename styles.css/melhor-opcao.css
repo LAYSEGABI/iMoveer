@@ -1,0 +1,32 @@
+.melhor {
+    padding: 2em 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: var(--branco-padrao);
+    align-items: center;
+    
+}
+
+.melhor h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.melhor a {
+    white-space: nowrap;
+    padding: 1em 2em;
+    text-decoration: none;
+    color: var(--branco-padrao);
+    margin-top: 2em 0;
+    text-align: center;
+    width: 50%;
+    border-radius: 5px;
+    background: var(--azul-claro);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    transition: .5s;
+}
+
+.melhor a:hover {
+    transform: scale(1.08);
+}

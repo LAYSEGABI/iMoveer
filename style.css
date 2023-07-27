@@ -1,0 +1,26 @@
+/* Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap');
+
+
+@import url('styles.css/header.css');
+@import url('styles.css/banner.css');
+@import url('styles.css/melhor-opcao.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-destaque: #006DD1;
+    --azul-claro: #65aef3;
+    --preto-padrao: #092844;
+    --branco-padrao: rgb(255, 255, 255);
+    --linear-azul-roxo:  linear-gradient(270deg, #8c4eff 0%, #006DD1 49.48%, #0086D1 94.79%);
+}
+
+body {
+    font-family: 'Archivo', sans-serif;
+    background: var(--linear-azul-roxo);
+}

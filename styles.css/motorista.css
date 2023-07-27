@@ -1,0 +1,28 @@
+.motorista {
+    color: var(--branco-padrao);
+    padding: 3em ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.motorista p {
+    color: var(--cinza-padrao);
+}
+
+.motorista a{
+    white-space: nowrap;
+    padding: 1em 2em;
+    text-decoration: none;
+    color: white;
+    width: 70%;
+    border-radius: 5px;
+    background: var(--azul-claro);
+    transition: .5s;
+}
+
+.motorista a:hover {
+    transform: scale(1.08);
+}

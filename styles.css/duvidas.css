@@ -1,0 +1,18 @@
+.duvidas {
+    padding: 3em 2em;
+    color: var(--preto-padrao);
+    background-color: var(--branco-padrao);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.duvidas a {
+    text-decoration: none;
+    color: var(--cor-destaque);
+    font-weight: bold;
+}
+
+.duvidas a:hover {
+    color: rgb(55, 142, 182);
+}

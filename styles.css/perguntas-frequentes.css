@@ -1,0 +1,68 @@
+.perguntas-frequentes {
+    margin: 1em;
+    color: var(--branco-padrao);
+    display: flex;
+    text-align: center;
+}
+
+.container-acordeon h2 {
+    margin: 1em;
+    white-space: nowrap;
+}
+
+.container-acordeon h4 {
+    color: rgb(220, 231, 248);
+    margin: 20px 0;
+    text-align: start;
+}
+
+.accordion {
+    background-color: rgb(0, 54, 153);
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.active,
+.accordion:hover {
+    background-color: #4d73f0;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #ffffff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 20px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel p {
+    color: var(--preto-padrao);
+    text-align: start;
+}
+
+@media (min-width: 900px) {
+    .container-acordeon {
+        margin: 3em 7em;
+    }
+}

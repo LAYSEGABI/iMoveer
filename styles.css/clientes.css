@@ -1,9 +1,9 @@
 .slider-section {
     background-color: var(--branco-padrao);
-    padding: 3em 2em;
+    padding: 4em 2em;
     margin-top: -10px;
-    height: 100vh;
     text-align: center;
+    border-radius: 0% 0% 50% 50% / 10% 16% 8% 8%;
 }
 
 .slider-section h2 {
@@ -101,4 +101,18 @@ ol {
             content: "\21F8";
         }
     }
+}
+
+@media (min-width: 900px) {
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 30vw;
+        height: 200px;
+    }
+    
 }

@@ -258,7 +258,7 @@ class SwipeSlider {
   handleClick(e) {
     if (!this.userHasSwiped) return;
 
-    e.preventDefault(); // Disallow click while swiping
+    e.preventDefault(); 
     this.userHasSwiped = false;
   }
 }
@@ -267,3 +267,19 @@ class SwipeSlider {
 const sliders = document.querySelectorAll('.slider');
 sliders.forEach((slider) => { new SwipeSlider(slider) });
 
+
+//accordeon da seção perguntas frequentes
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}

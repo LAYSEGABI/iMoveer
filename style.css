@@ -8,6 +8,11 @@
 @import url('styles.css/transportamos.css');
 @import url('styles.css/sobre-nos.css');
 @import url('styles.css/clientes.css');
+@import url('styles.css/motorista.css');
+@import url('styles.css/qualidade.css');
+@import url('styles.css/perguntas-frequentes.css');
+@import url('styles.css/duvidas.css');
+@import url('styles.css/footer.css');
 
 * {
     margin: 0;

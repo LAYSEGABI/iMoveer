@@ -30,3 +30,19 @@
 .melhor a:hover {
     transform: scale(1.08);
 }
+
+
+@media (min-width: 800px) {
+
+    .melhor a {
+        width: 30%;
+    }
+}
+
+
+@media (min-width: 950px) {
+
+    .melhor a {
+        width: 20%;
+    }
+}

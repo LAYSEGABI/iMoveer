@@ -29,8 +29,12 @@
     text-decoration: none;
     color: var(--branco-padrao);
     margin: 1em 0;
+    transition: .5s;
 }
 
+.back a:hover {
+    transform: scale(1.08);
+}
 
 @media (max-width: 350px) {
 
@@ -42,7 +46,14 @@
 
 @media (min-width: 900px) {
 
+    .sobre-nos {
+        padding: 1em 7em;
+    }
     .back a {
         width: 20%;
+    }
+
+    .back {
+        padding: 1em 7em;
     }
 }

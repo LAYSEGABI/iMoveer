@@ -25,3 +25,23 @@
 .qualidade a:hover {
     transform: scale(1.08);
 }
+
+
+@media (min-width: 800px) {
+
+    .qualidade a {
+        width: 30%;
+    }
+}
+
+
+@media (min-width: 950px) {
+
+    .qualidade a {
+        width: 20%;
+    }
+
+    .qualidade {
+        padding: 4em 20%;
+    }
+}

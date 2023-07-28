@@ -60,6 +60,10 @@ nav ul li:before {
     transition: all 0.3s ease-in-out 0s;
 }
 
+nav ul li:last-child::before {
+    background-color: rgba(38, 0, 255, 0);
+}
+
 nav ul li:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
@@ -92,12 +96,13 @@ nav ul hr {
     padding: 0.8em 1.5em;
     background-color: rgb(126, 182, 255);
     border-radius: 5px;
-    transition: 0.5s;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    transition: 1s;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
 }
 
 .acesso:hover {
-    background-color: rgb(38, 103, 156);
+    background-color: rgb(89, 165, 228);
+    box-shadow: 0px 6px 6px 0px rgba(71, 71, 71, 0.39) inset;
 }
 
 .nav {

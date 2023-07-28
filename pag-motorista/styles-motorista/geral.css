@@ -1,0 +1,49 @@
+/* Section seja um motorista parceiro */
+.melhor a {
+    width: 60%;
+}
+
+@media (min-width: 700px) {
+    .melhor a {
+        width: 30%;
+    }
+
+}
+
+@media (min-width: 900px) {
+    .melhor a {
+        width: 20%;
+    }
+
+}
+
+
+/* Section pagamentos e contrato */
+
+.transportamos {
+    gap: 20px;
+
+}
+
+.container-transportamos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: start;
+}
+
+.transportamos h2 {
+    color: var(--cor-destaque);
+}
+
+.transportamos p {
+    text-align: start;
+}
+
+.transportamos h4 {
+    font-size: 1.3em;
+}
+
+.container-transportamos p {
+    margin: 0;
+}

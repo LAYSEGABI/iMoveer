@@ -52,11 +52,9 @@ form input {
     border-radius: 5px;
     border: none;
     margin: 10px 0;
-    color: green;
 }
 
 form input:focus {
-    color: green;
     box-shadow: 0 0 0 0;
     outline: 0;
 }
@@ -66,6 +64,12 @@ form select {
     border-radius: 5px;
     margin-top: 1em ;
 }
+
+form select:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
 
 .container-cotacao a {
     background-color: var(--azul-claro);
